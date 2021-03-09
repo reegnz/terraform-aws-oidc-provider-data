@@ -31,4 +31,10 @@ data "testing_assertions" "assert" {
     got       = module.mut.arn
     want      = aws_iam_openid_connect_provider.example.arn
   }
+
+  equal "name" {
+    statement = "trims https:// from the provider url"
+    got       = module.mut.name
+    want      = "example.com"
+  }
 }
