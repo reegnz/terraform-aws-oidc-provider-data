@@ -2,10 +2,6 @@ data "aws_eks_cluster" "cluster" {
   name = var.eks_cluster_name
 }
 
-data "aws_partition" "current" {}
-
-data "aws_caller_identity" "current" {}
-
 module "oidc-provider-data" {
   source     = "reegnz/oidc-provider-data/aws"
   version    = "0.0.2"
