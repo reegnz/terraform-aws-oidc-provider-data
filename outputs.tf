@@ -1,6 +1,6 @@
-output "issuer_url" {
-  description = "The OIDC issuer URL."
-  value       = var.issuer_url
+output "name" {
+  description = "The OIDC issuer name."
+  value       = local.url_stripped
 }
 
 output "arn" {

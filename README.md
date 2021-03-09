@@ -31,7 +31,7 @@ No Modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| issuer\_url | The OIDC issuer URL. | `string` | n/a | yes |
+| name | The OIDC issuer name. | `string` | n/a | yes |
 
 ## Outputs
 
