@@ -1,5 +1,7 @@
 # aws-oidc-provider-data Terraform Module
 
+# DEPRECATED. Use [aws_iam_openid_connect_provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_openid_connect_provider) data source instead.
+
 This module is for generating the OpenID Connect provider ARN one would get
 given an issuer url.
 
